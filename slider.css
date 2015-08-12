@@ -1,0 +1,48 @@
+.slider{
+    width: 800px;
+    height: 250px;
+    /*outline: 1px solid red;*/
+    position: relative;
+}
+.slider img{
+    width: 800px;
+    position: absolute;
+}
+
+.slider .controls{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin: -25px 0 0 0;
+}
+
+.slider .controls div{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.slider .controls div:hover{
+    background-color: #000;
+    cursor: default;
+}
+
+.slider .controls .prev{
+    float: left;
+}
+
+.slider .controls .next{
+    float: right;
+}
+.sw a{
+    background: url(images/sprite.png) no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.sw .tw{
+    background-position: -90px 0;
+}
